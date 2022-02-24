@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
       {user && (
         <div className="flex flex-col justify-center">
-          <p className="pb-2 text-white">Welcome {user.name}!</p>
+          <p className="pb-2 text-white">Welcome {user.name}!!</p>
           <button className="py-2 text-white rounded-md px-7 bg-rose-500">
             <Link href="http://localhost:3000/api/auth/logout">
               <a>Logout</a>
